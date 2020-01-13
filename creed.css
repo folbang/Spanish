@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+          background: maroon;
+  background:linear-gradient(-90deg,gold,salmon,purple,lightgreen,lightblue,maroon);
+  background-size:1500% 1500%;
+  animation: pit 45s ease infinite;
+}
+.pat h2 {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 40px;
+    color: white;
+    border: 4px solid white;
+    border-radius:20px;
+}
+.pat {
+  background-color: none;
+  padding: 15px;
+  overflow: auto;
+  position: sticky;
+}
+.pat a {
+  text-decoration: none;
+  font-size: 25px;
+    border: 4px solid white;
+    border-radius:10px;
+}
+.nav {
+  float: right;
+  color: black;
+  margin-left: 10px;
+  padding: 15px;
+  background-color: none;
+}
+.nav:hover {
+  color: white;
+    background-color: lightgrey;
+}
+.vin h1{
+    text-align:center;
+    color:white;
+}
+.vin p{
+        margin:5% 15%;
+    text-align:center;
+    font-size:35px;
+}
+.qua h1{
+    text-align:center;
+    color:white;
+}
+.qua p{
+        margin:5% 15%;
+    text-align:center;
+    font-size:35px;
+}
+
+@-webkit-keyframes pit {
+    0% {
+        background-position:0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
